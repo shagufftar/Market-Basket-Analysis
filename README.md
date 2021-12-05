@@ -5,7 +5,10 @@ According to the Apriori algorithm, all sub-clusters of an uncommon itemset can'
 
 
 The market basket analysis is used by retailers to determine the purchasing patterns of customers. It often reveals product groupings and products that are likely to be purchased together. We have used the association rule for this. It counts the frequency of items that occur together, seeking to find associations that occur far more often than expected.
-The association rule was determined by using the frequent itemsets with a minimum threshold of 1. We used a lift and confidence for the rules of associations. ● The confidence of an association rule is a percentage value that shows how frequently the rule head occurs among all the groups containing the rule body. The confidence value indicates how reliable this rule is. The higher the value, the more likely the head items occur in a group if it is known that all body items are contained in that group.
+The association rule was determined by using the frequent itemsets with a minimum threshold of 
+
+1. We used a lift and confidence for the rules of associations.
+2. The confidence of an association rule is a percentage value that shows how frequently the rule head occurs among all the groups containing the rule body. The confidence value indicates how reliable this rule is. The higher the value, the more likely the head items occur in a group if it is known that all body items are contained in that group.
  The lift value of an association rule is the ratio of the confidence of the rule and the expected confidence of the rule. The expected confidence of a rule is defined as the product of the support values of the rule body and the rule head divided by the support of the rule body.
  
  
